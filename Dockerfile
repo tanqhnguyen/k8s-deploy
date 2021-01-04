@@ -1,3 +1,4 @@
+# Latest upstream version: https://github.com/dtzar/helm-kubectl/blob/master/Dockerfile
 FROM dtzar/helm-kubectl:3.4.1
 
 RUN apk --update upgrade \
