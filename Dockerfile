@@ -1,5 +1,5 @@
 # Latest upstream version: https://github.com/dtzar/helm-kubectl/blob/master/Dockerfile
-FROM dtzar/helm-kubectl:3.4.1
+FROM dtzar/helm-kubectl:3.4.2
 
 RUN apk --update upgrade \
     && apk add --update ruby ruby-bundler ruby-dev ruby-bigdecimal ca-certificates gcc build-base \
