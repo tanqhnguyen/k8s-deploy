@@ -1,5 +1,5 @@
 # Latest upstream version: https://github.com/dtzar/helm-kubectl/blob/master/Dockerfile
-FROM dtzar/helm-kubectl:3.4.1
+FROM dtzar/helm-kubectl:3.4.2
 
 ENV KRANE_VERSION=2.1.3
 
