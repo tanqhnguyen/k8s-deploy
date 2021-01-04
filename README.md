@@ -7,3 +7,9 @@ It contains 3 commands to work with k8s clusters:
 - kubectl
 - helm
 - krane
+
+# Usage
+
+```
+docker pull tannguyen/k8s-deploy
+```
