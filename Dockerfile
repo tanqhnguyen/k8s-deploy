@@ -3,10 +3,10 @@ FROM alpine:3.12
 
 # Note: Latest version of kubectl may be found at:
 # https://github.com/kubernetes/kubernetes/releases
-ENV KUBE_LATEST_VERSION="1.20.1"
+ENV KUBE_LATEST_VERSION="1.19.6"
 # Note: Latest version of helm may be found at
 # https://github.com/kubernetes/helm/releases
-ENV HELM_VERSION="3.4.2"
+ENV HELM_VERSION="3.4.1"
 
 # Note: Latest version of helm may be found at
 # https://github.com/Shopify/krane/releases
