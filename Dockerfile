@@ -3,14 +3,14 @@ FROM alpine:3.12
 
 # Note: Latest version of kubectl may be found at:
 # https://github.com/kubernetes/kubernetes/releases
-ENV KUBE_LATEST_VERSION="1.20.1"
+ENV KUBE_LATEST_VERSION="1.21.5"
 # Note: Latest version of helm may be found at
 # https://github.com/kubernetes/helm/releases
-ENV HELM_VERSION="3.4.2"
+ENV HELM_VERSION="3.7.0"
 
 # Note: Latest version of helm may be found at
 # https://github.com/Shopify/krane/releases
-ENV KRANE_VERSION="2.1.3"
+ENV KRANE_VERSION="2.3.0"
 
 RUN apk add --no-cache ca-certificates bash git openssh curl ruby ruby-bundler ruby-dev ruby-bigdecimal gcc build-base \
     && wget -q https://storage.googleapis.com/kubernetes-release/release/v${KUBE_LATEST_VERSION}/bin/linux/amd64/kubectl -O /usr/local/bin/kubectl \
